@@ -1,7 +1,7 @@
 var circle,c1;
 
 function setup() {
-  createCanvas(1800, 1000);
+  createCanvas(window.innerWidth, window.innerHeight);
   frameRate(30);
   angleMode(DEGREES);
   colorMode(RGB, 255, 255, 255, 1)
